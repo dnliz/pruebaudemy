@@ -1,0 +1,1037 @@
+/*META*/
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Redressed&display=swap');
+@font-face{font-family: 'pirata'; src:url('PirataOne-Regular.ttf');}
+
+#cuerpo{
+	background-image: url("imagenes/alianza.png")
+}
+
+header, section, footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'pirata', sans-serif; font-size: large;
+}
+h1{
+	font-family: 'Redressed', cursive;
+	margin-top: 0;
+ }
+h2{
+ 	font-family: 'Redressed', cursive;
+ 	margin-top: 0;
+ 	text-shadow: 2px 5px 10px #161df0;
+}
+
+header{
+height: 160px;
+}
+
+section{
+margin-top: 5px;
+margin-bottom: 5px;
+height: 1024px;
+background-image: url("imagenes/back02.jpg");	
+}
+
+footer{
+height: 100px;
+color: white;
+}
+
+img{
+	display: inline;
+	vertical-align: middle;
+	align-items: center;
+}
+
+/*HEADER*/
+
+#cabecera_img{
+	width: 960px ;
+	height: 160px;
+	background-color: black;
+	margin-right: 5px;
+	float: left;
+}
+#logo{	
+	width:255px ;
+	height: 155px;
+	float: left;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+/*FOOTER*/
+
+#contacto_dig{
+	align-items: center;
+	text-align: center;
+	display: block;
+	position: absolute;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 472.5px ;
+	height: 90px;
+	float: left;
+}
+#contacto_dig p{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#contacto_dig img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#img_foot img{
+	display: block;
+}
+/*SECCIONES*/
+
+	/*CABECERA DE CONTENIDO*/
+
+#navegacion{
+	color: darkblue;
+	margin-top: 35px;
+	margin-left: 30px;
+	width: 185px;
+	height: 350px;
+	float: left;
+	margin-right: 5px;
+	position: absolute;	
+}
+#navegacion ul li a{
+	text-decoration: none;
+	text-decoration-style: none;
+	text-align: center;
+	font-size: 30px;
+	width: 200px;
+	height: 40px;
+	background-color: lightslategray;
+	border-radius: 20px 0px 20px 0px;
+}
+
+#navegacion ul li a:hover{
+	transition-property	:all;
+	transition-duration:0.7s;
+	width: 250px;
+	background-color: lightskyblue;
+	border-radius: 0px 20px 0px 20px;
+}
+#oscuro{
+	margin-top: 10px;
+	margin-left:830px;
+	width:100px;
+	height: 150px;
+	float: right;
+	position: absolute;
+}
+.nav1
+	a{
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	}
+	li{
+	list-style: none;
+	margin-top: 15px;
+	margin-left: 0px;
+	}
+
+#carry{		
+	width: 950px ;
+	height: 410px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+	/* PAGINA INICIO*/
+
+#tio{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 472.5px ;
+	height:400px;
+	float: left;
+	margin-bottom: 5px;
+	color: #ebeced;
+	text-align: justify;
+}
+
+#info{
+	text-align: justify;
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 472.5px ;
+	height:400px;
+	float: left;
+	margin-bottom: 5px;
+	color: #ebeced;
+}
+#info h2{
+	text-align: center;
+}
+
+#web{
+	display: inline-flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 0px;
+	width: 472.5px ;
+	height: 195px;
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	}
+#web img:hover{
+	transition-property	:all;
+	transition-duration:0.7s;
+	filter: invert(100%);
+	transform: 	scale(1.5);	
+	box-shadow: 0px 0px 20px 0px #d91629;
+
+}
+#busqueda{
+	display: inline-flex;
+	flex-wrap: 	wrap;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
+	margin-right: 15px;
+	width: 472.5px ;
+	height: 195px;
+	float: right;
+	margin-bottom: 0px;
+	color: #ebeced;
+	font-weight: bolder;
+}	
+#busqueda img{
+	margin: 0px;
+	padding: 0px;
+}
+#busqueda h2{
+	padding:0;
+	margin: 0;
+}
+
+	/*PAGINA CONTACTO*/
+
+#vid_contacto{
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 30px;
+	width: 473.5px ;
+	height:270px;
+	float: left;
+	margin-bottom: 5px;
+	font-weight: bolder;
+	text-align: center;
+	box-sizing: border-box;
+	border-style: outset;
+	box-shadow: 0px 0px 30px #d91629;
+	}
+
+#bot_vid{
+	margin-top: 10px;
+	color: white;
+	box-shadow: 0px 0px 20px blueviolet;
+
+}
+#bot_vid ul{
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#bot_vid ul li{
+	margin: 0;
+	display: inline; 
+
+}
+
+#bot_vid ul li a{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color:  white;
+}
+
+#form_contacto{
+	color: #ebeced;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 65px;
+	margin-right: 5px;
+	width: 472,5px ;
+	height: 320px;
+	float: left;
+	margin-bottom: 5px;
+	}
+
+#form_datos{
+	color: lightgrey;
+	margin-top: 0px;
+	margin-left: 10px;
+	float: left;
+	width: 470px;
+	height: 270px;
+}
+
+#form_datos label{
+	margin-left: 15px;
+	margin-top: 5px;
+}
+#form_datos input{
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 200px;
+	height: 25px;
+}
+#form_datos select{
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 200px;
+	height: 25px;
+}
+#form_datos textarea{
+	margin-top: 5px;
+	margin-left: 25px;
+	width:400px ;
+	height:75px ;
+}
+
+#mostrar{
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	width: 470px;
+	height: 270px;
+	background-color: whitesmoke;
+	
+}
+
+/*PAGINA RAIDERS*/
+
+#riders1{
+	display: flex;
+	margin-left: 5px;
+	width: 150px ;
+	height: 400px;
+	float: left;
+	text-align: center;
+}
+
+#riders1 ul{
+	text-decoration: none;
+}
+
+#riders1 ul li{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#riders1 img{
+	text-align: left;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 20px #0714fa;
+	filter: grayscale(100%);
+}
+#riders1 img:hover{
+	transition-property	:all;
+	transition-duration:0.7s;
+	filter: grayscale(10%);
+	transform: 	scale(1.5);	
+	box-shadow: 0px 0px 20px 0px #03e3fc;
+}
+#riders2{
+	margin-left: 5px;
+	width: 150px ;
+	height: 400px;
+	float: left;
+	text-align: center;
+}
+#riders2 ul{
+	text-decoration: none;
+}
+#riders2 ul li{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#riders2 img{
+	text-align: left;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 20px #0714fa;
+	filter: grayscale(100%);
+}
+#riders2 img:hover{
+	transition-property	:all;
+	transition-duration:0.7s;
+	filter: grayscale(10%);
+	transform: 	scale(1.5);	
+	box-shadow: 0px 0px 20px 0px #03e3fc;
+}
+
+#riders3{
+	position: absolute;
+	margin-top: 435px;
+	margin-left: 350px;
+	float:left;
+	animation-name: anim_box;
+	animation-duration: 5s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes anim_box{
+	from{
+	width: 0px ;
+	height: 0px;
+	}
+	to{
+	width: 536px ;
+	height: 335px;
+	}
+}
+#riders3 img{
+	padding-top: 0px;
+	animation-name: anim_img;
+	animation-duration: 5s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes anim_img{
+	from{
+	width: 0px ;
+	height: 0px;
+	}
+	50%{
+		box-shadow: 0px 0px 30px 10px #fc032d;
+	}
+	to{
+	width: 536px ;
+	height: 335px;
+	border-style: solid;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 0px 0px 40px 20px #03e3fc;
+	}
+}
+	
+	/*INFORMACION*/
+
+#informacion{
+	margin-top: 0;
+	padding-top: 0;
+	font-weight: normal;
+	align-items: center;
+ 	text-align: center;
+   	color: #EBEBEB;
+ 	font-size: 20px;
+  	line-height: 140%;
+  	text-shadow: 2px 2px 2px #A11D03;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 950px ;
+	height: 150px;
+	float: left;
+	padding-bottom: 20px;
+}
+
+#imagen_info{
+	align-items: center;
+	float:left;
+	width:850px;
+	height:400px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 65px;
+	margin-right: 5px;
+	font-weight: normal;
+	text-align: center;
+	color: #EBEBEB;
+	font-size: 20.0px;
+	line-height: 140%;
+
+}
+#historia p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#info_contacto{
+	text-align: center;
+	display: inline;
+	color: white;
+	float:left;
+	width:950px;
+	height:180px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#info_contacto img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/** FORO **/
+#sec_foro {
+	height: 1100px;
+	background-color: lightskyblue;
+}
+
+#smile {
+	margin-top: 140px;
+	border-radius: 20px;
+	background-color: darkgreen;
+	margin-left: 320px;
+	margin-right: 15px;
+	float: left;
+}
+#sad{
+	margin-top: 140px;
+	border-radius: 20px;
+	background-color: darkred;
+	float: left;
+	animation-name: base;
+	animation-duration: 5s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes base{
+	from{
+	margin-left: 0px;
+	background-color: #e2ff08;
+	box-shadow: 0px 0px 30px 5px #fc032d;
+	}
+	to{
+	margin-left: 20px;
+	box-shadow: 0px 0px 40px 10px #03e3fc;
+	background-color: darkred;
+	}
+}
+#cab{
+	animation-name: cabeza;
+	animation-duration: 5s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes cabeza{
+	from{
+ 	stroke: #0c43f5;
+ 	stroke-widht: 5;
+	}
+	to{
+	stroke: #f502a0;
+ 	stroke-widht: 1;
+	}
+}
+circle#ojo_i{
+	animation-name: ojo_izq ;
+	animation-duration: 1s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes ojo_izq{
+	from{
+		r: 0px;
+
+	}
+	to{
+		r: 10px;
+		fill: #ff0033;
+	}
+}
+#ojo_d{
+	animation-name: ojo_der;
+	animation-duration: 5s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+
+rect#boca {
+	animation-name: boca;
+	animation-duration: 1s;
+	animation-iteration-count: 	infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes boca{
+	from{
+	width: 70px;
+	height: 10px;
+	}
+	to{
+	x: 70px;
+	width: 10px;
+	height: 2px;
+	transform: a;
+	}
+}
+
+#foro{
+	text-align: center;
+	display: inline;
+	color: white;
+	float:left;
+	width:950px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 300px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#cajacanvas 
+
+/** RESPONSIVE **/
+
+																/**INICIO 600 X 1023**/
+@media all and (min-width: 600px) and (max-width: 1023px){
+/*META*/
+
+header, section, footer{
+width:580px;
+font-size: 15px;
+box-sizing: border-box;
+}
+header{
+	height: 98px;
+	margin-bottom: 5px;
+}
+section{
+margin-top: 0;
+height: 1200px;
+padding-top: 5px;
+}
+footer{
+padding-top: 0px;	
+height: 100px;
+color: white;
+}
+img{
+	max-width: 580px;
+}
+
+/*HEADER*/
+
+#cabecera_img{
+	width: 580px;
+	height: 98px;
+	margin: 0;
+	padding: 0;
+}	
+
+/*FOOTER*/
+
+#contacto_dig{
+	margin-top: 0;
+	width: 580px ;
+	height: 100px;
+	font-size: 20px;
+}
+#contacto_dig p{
+	margin-top: 0;
+	display: inline;
+	padding-top:0px;
+}
+#contacto_dig img{
+	padding-top: 0px;
+	margin-top: 0px;
+	display: inline;
+}
+#img_foot img{
+	margin-top: 0px;
+	display: inline;
+}
+/*SECCIONES*/
+
+	/*CABECERA DE CONTENIDO*/
+#carry{		
+	width: 570px ;
+	height: 350px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 0px;
+	box-shadow:	0px 0px 30px #d91629;
+	box-sizing: border-box;
+}
+#navegacion{
+	margin-top: 0;
+	margin-left: 0;
+	width: 580px;
+	height: 410px;
+	float: right;
+	position: absolute;	
+}
+	/* PAGINA INICIO*/
+
+#tio{
+	margin-top: 5px;
+	margin-right: 0;
+	margin-left: 0;
+	width: 580px ;
+	height:300px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#info{
+	margin-right: 0;
+	width: 580px ;
+	height:230px;
+   	text-align: center;
+}
+#web{
+	margin-left: 0px;
+	width: 580px ;
+	height: 110px;
+	margin-right: 0px;
+}
+#busqueda{
+	margin-right: 0px;
+	width: 580px ;
+	height: 100px;
+	float: left;
+	margin-bottom: 5px;
+}	
+
+	/*PAGINA CONTACTO*/
+
+#vid_contacto{
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 580px ;
+	height:328px;
+}
+#form_contacto{
+	margin-top: 10px;
+	margin-left: 10px ;
+	margin-right: 10px;
+	width: 560px ;
+	height: 380px;
+}
+
+	/*PAGINA RAIDERS*/
+
+#riders1{
+	margin-left: 5px;
+	width: 270px ;
+	height: 400px;
+	float: left;
+}
+#riders2{
+	align-items: center;
+	margin-left: 5px;
+	width: 270px;
+	height: 400px;
+	float: left;
+}
+
+#riders3{
+	position: relative;
+	margin-top: 0px;
+	margin-left: 5px;
+	width: 570px ;
+	float:left;
+	border-style: none;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 0;
+	box-shadow: 0px 0px 10px #FF0303;
+	background-color: black;
+}
+#riders3 iframe{
+	position: absolute;
+	display: block;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+	
+	/*INFORMACION*/
+
+#informacion{
+ 	font-size: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 580px;
+	height: 350px;
+}
+#historia{
+	margin-top: 10px;
+	width:580px;
+	height: 300px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 20px;
+}
+#info_contacto{
+	margin-top: 10px;
+	width:580px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+#foro{
+	margin-top: 200px;
+	width:580px;
+}
+} 
+/**FIN 600 X 1023**/
+
+																	/**INICIO MAX599**/
+@media all and (max-width:599px){
+
+header, section, footer{
+width:90%;
+font-size: 15px;
+box-sizing: border-box;
+}
+header{
+	height: auto;
+	margin-bottom: 0px;
+}
+section{
+margin-top: 0;
+height: auto;
+padding-top: 0px;
+}
+footer{
+padding-top: 0px;	
+height: auto;
+color: white;
+}
+img{
+	max-width: 100%;
+}
+
+/*HEADER*/
+
+#cabecera_img{
+	width: 100%;
+	height: auto;
+	padding: 0;
+}	
+
+/*FOOTER*/
+
+#contacto_dig{
+	padding-top: 0;
+	margin-top: 0;
+	width: 90%;
+	height: auto;
+	font-size: 15px;
+}
+#contacto_dig p{
+	padding-top: 0;
+	margin-top: 0;
+	display: inline;
+	padding-top:0px;
+}
+#contacto_dig img{
+	padding-top: 0;
+	padding-top: 0px;
+	margin-top: 0px;
+	display: inline;
+}
+#img_foot img{
+	padding-top: 0;
+	margin-top: 0px;
+	display: inline;
+}
+/*SECCIONES*/
+
+	/*CABECERA DE CONTENIDO*/
+#carry{		
+	display: inline;
+	float: none;
+	width: 90%;
+	height: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	box-shadow:	0px 0px 30px #d91629;
+	box-sizing: border-box;
+}
+#navegacion{
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+	float: none;
+	position: relative;	
+}
+	/* PAGINA INICIO*/
+
+#tio{
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	height:auto;
+	margin-bottom: 0;
+	text-align: center;
+	float: none;
+}
+#info{
+	margin-right: auto;
+	margin-left: auto;
+	width:90% ;
+	height:auto;
+   	text-align: center;
+   	float: none;
+}
+#web{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	height: auto;
+	float: none;
+}
+#busqueda{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90% ;
+	height: auto;
+	float: none;
+	margin-bottom: 0px;
+}	
+
+	/*PAGINA CONTACTO*/
+
+#vid_contacto{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	float: none;
+	width: 90%;
+	height:auto;
+}
+#form_contacto{
+	float: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90% ;
+	height: auto;
+}
+
+	/*PAGINA RAIDERS*/
+
+#riders1{
+	display: block;
+	margin-left: 0px;
+	width: 90%;
+	height: auto;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+#riders2{
+	display: block;
+	margin-left: 0px;
+	width: 90%;
+	height: auto;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#riders3{
+	position: relative;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	float:none;
+	border-style: none;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 0;
+	box-shadow: 0px 0px 10px #FF0303;
+	background-color: black;
+}
+#riders3 iframe{
+	width: 90%;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+	/*INFORMACION*/
+
+#informacion{
+ 	font-size: 20px;
+ 	float: none;
+	margin-top: 10px;
+	margin-right:auto;
+	margin-left: auto;
+	width: 90%;
+	height: auto;
+}
+#historia{
+	margin-top: 0px;
+	width:90%;
+	height: auto;
+	float: none;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+#info_contacto{
+	display: block;
+	text-align: center;
+	align-items: center;
+	float: none;
+	margin-top: 0px;
+	width:90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+#foro{
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+	height: auto;
+	float: none;
+}
+} /**FIN MAX 599
